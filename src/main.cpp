@@ -8,6 +8,7 @@
 #include <chrono>
 #include <random>
 
+
 // Global variables for synchronization
 constexpr int NUM_JOGADORES = 4; 
 std::counting_semaphore<NUM_JOGADORES> cadeira_sem(NUM_JOGADORES - 1); // Inicia com n-1 cadeiras, capacidade máxima n
